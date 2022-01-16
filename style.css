@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(images/max-bender-s4I1xpX_ny8-unsplash.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header >h1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+.section-one{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(192, 188, 188);
+
+}
+.section-one > .text{
+    height: 25vh;
+    text-align: center;
+    width: 80vw;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.5rem;
+    word-spacing: .4rem;
+}
+
+.section-one > .back{
+    height: 55vh;
+    background-image: url(images/max-bender-VmX3vmBecFE-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.section-two{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: black;
+    color: white;
+
+}
+.section-two > .text{
+    height: 25vh;
+    text-align: center;
+    width: 80vw;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.5rem;
+    word-spacing: .4rem;
+}
+
+.section-two > .back{
+    height: 55vh;
+    background-image: url(images/andre-benz-qz7KZgeDmjU-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.section-three{
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: black;
+    color: white;
+
+}
+.section-three > .text{
+    height: 25vh;
+    text-align: center;
+    width: 80vw;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.5rem;
+    word-spacing: .4rem;
+}
+.footer{
+    background-image: url(images/xiang-ji-UwPDjANCoJI-unsplash.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer >h1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+@media  screen and (max-width: 450px) {
+    .section-one > .text{
+        height: 25vh;
+        text-align: center;
+        width: 90vw;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 1.2rem;
+        word-spacing: 0rem;
+    } 
+    .section-two > .text{
+        height: 25vh;
+        text-align: center;
+        width: 90vw;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 1.2rem;
+        word-spacing: 0rem;
+    }  
+    .section-three > .text{
+        height: 25vh;
+        text-align: center;
+        width: 90vw;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 1.2rem;
+        word-spacing: 0rem;
+    }
+}
